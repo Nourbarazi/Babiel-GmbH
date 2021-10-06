@@ -45,12 +45,13 @@ body {
   margin-right: auto;
   z-index: 5;
   position: relative;
+  overflow: hidden;
 }
 
 /* Container Small */
 @media (max-width: 575px) {
   .container {
-    width: 480px;
+    width: 90%;
   }
 }
 
@@ -504,6 +505,7 @@ body {
 main {
   position: relative;
   top: 90px;
+  overflow: hidden;
   /* Start Landing */
   /* End Landing */
   /* Start Über uns */

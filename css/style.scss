@@ -78,13 +78,14 @@ body {
     margin-right: auto;
     z-index:5;
     position:relative;
+    overflow:hidden;
 }
 
 /* Container Small */
 
 @media (max-width: $xSmall){
     .container{
-        width:480px;
+        width:90%;
         }
     }
 
@@ -123,6 +124,7 @@ body {
 .nav-container {
     position: relative;
     top:90px;
+
     nav {
         background-color:#fff;
         position: fixed;
@@ -357,6 +359,7 @@ body {
 main {
     position: relative;
     top:90px;
+    overflow: hidden;
     /* Start Landing */
     .landing {
         @include flex(row, stretch, center);
